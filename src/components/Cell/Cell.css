@@ -1,0 +1,7 @@
+.Cell {
+  height: 70px;
+  width: 130px;
+  /* background-color: #1990ff; */
+  background-color: rgb(89, 87, 87);
+  border: 1px solid rgb(89, 87, 87);
+}

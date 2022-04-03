@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  background-color: #1990ff;
+}
+
+.App {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+.App h1 {
+  font-size: 90px;
+  color: rgb(252, 3, 119);
+}
+
+.App p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.3em;
+  font-style: italic;
+}
+
+.App button {
+  background-color: #303030;
+  color: #50c8ff;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.App button:hover {
+  background-color: #50c8ff;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.App button:disabled {
+  background-color: white;
+  border: 1px solid grey;
+  cursor: auto;
+}
+.circle {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #000;
+  border-radius: 100px;
+}
+
+.circles {
+  margin: -40px 0 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.heading {
+  font-family: 'Lucida Sans Unicode';
+}
