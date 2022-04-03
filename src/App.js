@@ -345,7 +345,9 @@ class App extends Component {
         <Board board={this.state.board} cellClick={this.cellClickHandler} />
         {result}
         <button onClick={this.resetClickHandler}>Restart</button>
-        <button>Go to Home</button>
+        <button>
+          <a href="https://gametree-respawn.netlify.app/">Go to Home</a>
+        </button>
       </div>
     );
   }
