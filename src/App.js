@@ -346,7 +346,7 @@ class App extends Component {
         {result}
         <button onClick={this.resetClickHandler}>Restart</button>
         <button>
-          <a href="https://gametree-respawn.netlify.app/">Go to Home</a>
+          <a href="https://gamecity-respawn.netlify.app">Go to Home</a>
         </button>
       </div>
     );
