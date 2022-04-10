@@ -44,6 +44,12 @@
   transition: background-color 0.5s, color 0.5s;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #303030;
+}
+
 .App button:disabled {
   background-color: white;
   border: 1px solid grey;
